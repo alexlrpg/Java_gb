@@ -24,7 +24,7 @@ class Lesson2HomeWork {
     }
     
     static boolean negativeNumTrue(int a) {
-        return a >= 0 ? false : true;
+        return !(a >= 0);
     }
     
     static void stringAndNumber(String text, int a) {
